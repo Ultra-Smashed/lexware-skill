@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lexware",
+  "description": "Rechnungen, Belege und Mahnungen, ohne dich durch Menüs zu klicken.",
+  "owner": {
+    "name": "Christopher Thanisch",
+    "url": "https://thanisch.co"
+  },
+  "plugins": [
+    {
+      "name": "lexware",
+      "description": "Erledigt Buchhaltungsaufgaben in Lexware Office: Rechnungen aus einem Satz, Belege hochladen, offene Posten und Mahnungen, Angebote aus Notizen oder Sprachmemo, Monatsüberblick. Mit lokalem Server für den direkten Zugriff.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
